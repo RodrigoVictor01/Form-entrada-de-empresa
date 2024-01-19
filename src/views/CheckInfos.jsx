@@ -16,7 +16,7 @@ const CheckInfos = () => {
 
                     <h1><span>Empresa:</span> {objetoRecebido.razaoSocial}</h1>
                     <h2><span>CNPJ:</span> {objetoRecebido.cnpj}</h2>
-                    <h2><span>Email</span>{objetoRecebido.email}</h2>
+                    <h2><span>Email:</span> {objetoRecebido.contato}</h2>
                     <h2><span>Enquadramento:</span> {objetoRecebido.opcao}</h2>
                     <h2><span>Atividades da empresa:</span> {objetoRecebido.atividades}</h2>
                     <h2><span>Módulos:</span> {objetoRecebido.modulos}</h2>
