@@ -1,0 +1,47 @@
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #346296;
+    height: 100px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #c69b66;
+    padding: 10px 0px;
+}
+
+header .headerArea {
+    width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+header .logo .boxLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #346296;
+    border-radius: 50%;
+}
+
+.boxLogo img {
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
